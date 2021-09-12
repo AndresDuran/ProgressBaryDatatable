@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
-export interface PeriodicElement {
+export interface DatatableDatos {
   nombre: string;
   cedula: number;
   apellidos: string;
   ciudad: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+const ELEMENT_DATA: DatatableDatos[] = [
   {cedula: 1070983062, nombre: 'Jorge Andres', apellidos: 'Duran Perez', ciudad: 'Facatativá'},
-  {cedula: 1018488967, nombre: 'Helium', apellidos: '4.0026', ciudad: 'Villeta'}
+  {cedula: 1018488967, nombre: 'Ingry Rossana', apellidos: 'Bastidas Alfonso', ciudad: 'Villeta'}
 ];
 
 @Component({
