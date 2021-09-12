@@ -7,6 +7,7 @@ import { ProgressbarComponent } from './pages/progressbar/progressbar.component'
 import { DatatableComponent } from './pages/datatable/datatable.component';
 import { FormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    MatProgressBarModule    
+    MatProgressBarModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
