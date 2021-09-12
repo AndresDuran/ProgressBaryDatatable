@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProgressbarComponent } from './pages/progressbar/progressbar.component';
+import { DatatableComponent } from './pages/datatable/datatable.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProgressbarComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
